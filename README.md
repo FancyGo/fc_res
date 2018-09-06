@@ -4,7 +4,7 @@
 ### 使用了tealeg/xlsx读取工具
 ```
   go get github.com/tealeg/xlsx)
-  go get github.com/FancyGo/fc_res
+  go get github.com/fancygo/fc_res
 ```
 
 ### 环境 go 1.10

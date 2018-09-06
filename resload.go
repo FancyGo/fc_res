@@ -2,8 +2,8 @@ package fc_res
 
 import (
 	"errors"
-	"github.com/FancyGo/fc_log"
-	"github.com/FancyGo/fc_sys"
+	"github.com/fancygo/fc_log"
+	"github.com/fancygo/fc_sys"
 	"github.com/tealeg/xlsx"
 	"path"
 )

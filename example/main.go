@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/FancyGo/fc_log"
-	"github.com/FancyGo/fc_res"
+	"github.com/fancygo/fc_log"
+	"github.com/fancygo/fc_res"
 	"github.com/tealeg/xlsx"
 	"strconv"
 	"strings"
