@@ -3,7 +3,7 @@ package fc_res
 import (
 	"errors"
 	"github.com/fancygo/fc_log"
-	"github.com/fancygo/fc_sys"
+	"github.com/fancygo/fc_util"
 	"github.com/tealeg/xlsx"
 	"path"
 )
@@ -75,7 +75,7 @@ func (r *Resload) GetPttByKey(resname string, key int) interface{} {
 
 func (r *Resload) parseOne(resname string) error {
 	mgr := r.Mgrs[resname]
-	respath := fc_sys.GetResDir()
+	respath := fc_util.GetResDir()
 	path := path.Join(respath, resname)
 	xlsfile, err := xlsx.OpenFile(path)
 	if err != nil {
